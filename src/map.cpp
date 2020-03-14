@@ -135,7 +135,7 @@ bool Map::get(const std::string key, int &ret) {
     ret = findID(mCentral[foundIndex]);
 
 	if (ret != NULL) {
-		//std::cout << ret << '\n';
+	std::cout << ret << '\n';
         return ret;
     } else {
         return false;

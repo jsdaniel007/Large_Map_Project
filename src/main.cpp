@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
 	int numTest = 1;
 
 	//tests for making sure the get function actually works
-	std::string testing1 = "Adam West";
+	std::string testing1 = "Adam Weast";
 	std::string testing2 = "Suzanne McCarthur";
 	std::string testing3 = "Sydney Garling";
 	std::string testing4 = "Christopher McClure";
@@ -50,15 +50,15 @@ int main(int argc, char *argv[]) {
 
 	//passing our previous sample value from earlier and a number to be changed later
 	std::cout << "If the value is found from the key, print the id:\n";
-	std::cout << "Trial 1:" << '\n';
+	std::cout << "Trial 1: get('Adam Weast')" << '\n';
 	Key.get(testing1, numTest); // should NOT be Adam West
 	std::cout << '\n';
 
-	std::cout << "Trial 2:" << '\n';
+	std::cout << "Trial 2: get('Christopher McClure')" << '\n';
 	Key.get(testing4, numTest);
 	std::cout << '\n';
 
-	std::cout << "Trial 3:" << '\n';
+	std::cout << "Trial 3: get('Sydney Garling')" << '\n';
 	Key.get(testing3, numTest);
 
 	std::cout << '\n';
@@ -67,7 +67,10 @@ int main(int argc, char *argv[]) {
 	std::cout << Key.howMany("Ad") << '\n';
 	std::cout << "Testing howMany with 'Suz' \n";
 	std::cout << Key.howMany("Suz") << '\n';
-
+	std::cout << "Testing howMany with 's' \n";
+	std::cout << Key.howMany("s") << '\n';
+	std::cout << "Testing howMany with 'S' \n";
+	std::cout << Key.howMany("S") << '\n';
 	//std::cout << "Testing Remove(): \n";
 	//Key.remove(testing3);
 /*
