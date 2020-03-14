@@ -8,12 +8,12 @@ Want to run it?
 
 Functionality Tests
 
-[How does this Work?](graphFiles/DisplayOutput.PNG)
+![How does this Work?](graphFiles/DisplayOutput.PNG)
 
 Performance is of O(Logn) Complexitity due to the binary search implementation combined with sorting when inserted 
 
-[Complexity of "Get Function" graph over 1,500 inputs](graphFiles/testtime.pdf)
+![Complexity of "Get Function" graph over 1,500 inputs](graphFiles/testtime.png)
 
 Full Project Scope can be found here:
 
-[Full Project PDF and Function Descriptions](project1.pdf)
+![Full Project PDF and Function Descriptions](project1.png)
