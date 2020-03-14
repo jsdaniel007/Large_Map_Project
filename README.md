@@ -8,7 +8,7 @@ Want to run it?
 
 Functionality Tests
 
-![How does this Work?](graphFiles/DisplayOutput.png)
+![How does this Work?](graphFiles/DisplayOutput.PNG)
 
 Performance is of O(Logn) Complexitity due to the binary search implementation combined with sorting when inserted 
 
