@@ -16,4 +16,4 @@ Performance is of O(Logn) Complexitity due to the binary search implementation c
 
 Full Project Scope can be found here:
 
-![Full Project PDF and Function Descriptions](project1-1.png)
+[Full Project PDF and Function Descriptions](project1-1.pdf)
