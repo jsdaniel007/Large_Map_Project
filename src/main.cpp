@@ -11,7 +11,8 @@ using namespace std;
 int main(int argc, char *argv[]) {
 	//cout << "Large Map Project \n";
 	Map Key; //object for the Map
-/*
+
+	//FUNCTIONALITY BASED TESTING
 	//tests for the function actually returning correct values
 	std::vector<std::string> letters = {"z","ac", "ab", "e", "t"};
 	std::string test = "Suzanne McCarthur 186255";
@@ -66,10 +67,11 @@ int main(int argc, char *argv[]) {
 	std::cout << Key.howMany("Ad") << '\n';
 	std::cout << "Testing howMany with 'Suz' \n";
 	std::cout << Key.howMany("Suz") << '\n';
-*/
+
 	//std::cout << "Testing Remove(): \n";
 	//Key.remove(testing3);
-
+/*
+	//TIME-BASED TESTING
 	//This is for generating timings to be put into a graph
 	srand(time(NULL));
 	int testSize = 1500;
@@ -89,11 +91,8 @@ int main(int argc, char *argv[]) {
 	//start the graph development
 	cout << "Getting... \n";
 	start = clock(); //start the clock
-	for (int i = 1; i < testSize; i += 10) {
-
+	for (int i = 0; i < testSize; i += 10) {
 		Key.get(Key.fillWithKeys(i), randomNum);
-
-
 		diff = clock() - start;
 		//converts to seconds
 		timeAmount = diff * 1.0 / CLOCKS_PER_SEC;
@@ -101,6 +100,6 @@ int main(int argc, char *argv[]) {
 		std::cout << i << ' ' << timeAmount << "\n";
 		std::cout << std::flush;
 	}
-
+*/
 	return 0;
 }

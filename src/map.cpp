@@ -124,7 +124,7 @@ int Map::findID(std::string& keyVal) {
 }
 
 /*
-    Utilizes the binarySearch function to
+    Utilizes the STL binarySearch function to retrieve the key marking as found
  */
 bool Map::get(const std::string key, int &ret) {
     int foundIndex;
@@ -135,7 +135,7 @@ bool Map::get(const std::string key, int &ret) {
     ret = findID(mCentral[foundIndex]);
 
 	if (ret != NULL) {
-		std::cout << ret << '\n';
+		//std::cout << ret << '\n';
         return ret;
     } else {
         return false;
